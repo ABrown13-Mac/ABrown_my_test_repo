@@ -1,0 +1,35 @@
+---
+title: "New File"
+author: "Andrew B"
+date: "3/10/2020"
+output: html_document
+---
+
+boi if u dont 
+
+```{r}
+library(tidyverse) 
+library(fueleconomy) 
+```
+
+```{r}
+vehicles %>%
+  ggplot(aes(x = hwy, y = displ)) +
+  geom_jitter()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
